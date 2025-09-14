@@ -108,9 +108,9 @@ const App: React.FC = () => {
             <SkyBackground />
             <WaterSurfaceBackground />
             
-            <div className="relative w-full max-w-6xl flex justify-around items-center z-20 px-2 md:px-4">
-                 {/* Fisherman on the left */}
-                <div className="hidden lg:block">
+            <div className="relative w-full max-w-6xl flex justify-around items-end z-20 px-2 md:px-4">
+                 {/* Fisherman on the left - positioned at water surface */}
+                <div className="hidden lg:block self-end" style={{ marginBottom: '0px' }}>
                      <PixelFisherman />
                 </div>
 
