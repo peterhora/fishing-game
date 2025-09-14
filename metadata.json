@@ -1,0 +1,5 @@
+{
+  "name": "Math Multiplication Fishing Game",
+  "description": "An interactive, web-based educational game designed to teach multiplication using a fun fishing theme with pixel art graphics. Players solve multiplication problems by visually counting groups of fish.",
+  "requestFramePermissions": []
+}
